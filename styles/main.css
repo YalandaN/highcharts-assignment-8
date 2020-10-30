@@ -1,0 +1,53 @@
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: inherit;
+}
+body {
+  background: #fff;
+  color: #000;
+  font-family: 'Roboto', Helvetica, sans-serif;
+  margin: 4rem;
+  line-height: 1.5rem;
+}
+h1{
+  text-align: center;
+}
+h2{
+  font-size: 80%;
+  text-align: center;
+  font-weight: 400;
+}
+
+div {
+  display: block;
+  margin: auto
+}
+#container {
+  max-width: 750px;
+  height: 600px;
+}
+#container2 {
+  max-width: 750px;
+  height: 600px;
+}
+.credits{
+  text-align: center;
+  font-size: 80%;
+}
+
+a {
+  color: #0287b3;
+}
+a:hover {
+  color: #3ecbfa;
+}
+
+@media screen and (max-width: 750px){
+  body {
+    margin: 2.5rem;
+  }
+}
